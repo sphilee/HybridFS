@@ -1,4 +1,4 @@
-#HybridFSv1.0
+#HybridFS
 
 ##WHAT IS THIS?
    Hybrid file system이란 ssd storage와 hdd storage를 하나의 드라이브로 통합하여 적용한 시스템이다.
