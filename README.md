@@ -1,26 +1,26 @@
-         Hybridfs v1.0
+#Hybridfs v1.0
 
-WHAT IS THIS?
-   Hybrid file systemÀÌ¶õ ssd storage¿Í hdd storage¸¦ ÇÏ³ªÀÇ µå¶óÀÌºê·Î ÅëÇÕÇÏ¿© Àû¿ëÇÑ ½Ã½ºÅÛÀÌ´Ù.
+##WHAT IS THIS?
+   Hybrid file systemì´ëž€ ssd storageì™€ hdd storageë¥¼ í•˜ë‚˜ì˜ ë“œë¼ì´ë¸Œë¡œ í†µí•©í•˜ì—¬ ì ìš©í•œ ì‹œìŠ¤í…œì´ë‹¤.
 
-ON WHAT HARDWARE DOES IT RUN?
+##ON WHAT HARDWARE DOES IT RUN?
    OS : Linux 12.04.5 LTS
    Kernel : Linux-2.6.35
    SSD : Samsung 850 PRO 128GB
    HDD : Samsung 500GB 7200RPM
 
-DOCUMENTATION:
-   1. ÆÄÀÏÀÇ Á¤º¸¸¦ ÀÐ¾î¿Í Å©±â°¡ Å« ÆÄÀÏÀº HDD·Î ÀÛÀº ÆÄÀÏÀº SSD·Î ¿Å°ÜÁÖ´Â ±â´ÉÀ» ÇÑ´Ù.
-   2. SSD¿¡ ÀÖ´Â symbolic file link¸¦ »ç¿ëÇÏ¿© HDD ¿¡ ÀÖ´Â ÆÄÀÏÀ» ÂüÁ¶ÇÏ°Ô ÇÑ´Ù.
-   3. ÇÃ·¡±×¸¦ »ç¿ëÇØ ÀÌÁÖ½Ã ¹ß»ýÇÏ´Â ÆÄÀÏ ¾²±â ¿äÃ»ÀÇ °æ¿ì ÇöÀç ÀÌÁÖÁßÀÎ ¿äÃ»À» ¹«È¿È­ ÇÏ°í ÆÄÀÏ ¾²±â ÈÄ ÀÌÁÖ¸¦ ½ÇÇàÇÏ´Â ¹æ½ÄÀÇ µ¥ÀÌÅ¸ ÀÌÁÖ½Ã ¹«°á¼ºÀ» Áö¿øÇÑ´Ù.
-   4. HDD·ÎÀÇ ÀÛÀº IO¸¦ Á¦°ÅÇÏ°í Embedded attributes¸¦ ÀÌ¿ëÇÏ´Â Replicating attributes ¹æ½ÄÀ» »ç¿ëÇÑ´Ù.
+##DOCUMENTATION:
+   1. íŒŒì¼ì˜ ì •ë³´ë¥¼ ì½ì–´ì™€ í¬ê¸°ê°€ í° íŒŒì¼ì€ HDDë¡œ ìž‘ì€ íŒŒì¼ì€ SSDë¡œ ì˜®ê²¨ì£¼ëŠ” ê¸°ëŠ¥ì„ í•œë‹¤.
+   2. SSDì— ìžˆëŠ” symbolic file linkë¥¼ ì‚¬ìš©í•˜ì—¬ HDD ì— ìžˆëŠ” íŒŒì¼ì„ ì°¸ì¡°í•˜ê²Œ í•œë‹¤.
+   3. í”Œëž˜ê·¸ë¥¼ ì‚¬ìš©í•´ ì´ì£¼ì‹œ ë°œìƒí•˜ëŠ” íŒŒì¼ ì“°ê¸° ìš”ì²­ì˜ ê²½ìš° í˜„ìž¬ ì´ì£¼ì¤‘ì¸ ìš”ì²­ì„ ë¬´íš¨í™” í•˜ê³  íŒŒì¼ ì“°ê¸° í›„ ì´ì£¼ë¥¼ ì‹¤í–‰í•˜ëŠ” ë°©ì‹ì˜ ë°ì´íƒ€ ì´ì£¼ì‹œ ë¬´ê²°ì„±ì„ ì§€ì›í•œë‹¤.
+   4. HDDë¡œì˜ ìž‘ì€ IOë¥¼ ì œê±°í•˜ê³  Embedded attributesë¥¼ ì´ìš©í•˜ëŠ” Replicating attributes ë°©ì‹ì„ ì‚¬ìš©í•œë‹¤.
 
-SOFTWARE REQUIREMENTS:
+##SOFTWARE REQUIREMENTS:
    fuse-tutorial-2016-03-25/src/bbfs.c
    fuse-tutorial-2016-03-25/src/log.c
    fuse-tutorial-2016-03-25/src/log.h
    fuse-tutorial-2016-03-25/src/Makefile
 
-COMPILING:
+##COMPILING:
    1) make
    2) ./bbfs /home/tim/Downloads/tmp/ssd /home/tim/Downloads/tmp/hybridfs/
